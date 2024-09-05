@@ -1,5 +1,4 @@
 *.pyc
-*.tif
 *.tiff
 *.nc
 *.csv
@@ -9,10 +8,6 @@
 *.zip
 *.qgz
 *.pdf
-*.shp
-*.prj
-*.shx
-*.dbf
 *.rar
 *.ovr
 *.log
@@ -22,11 +17,10 @@
 *.txt
 *.safe
 *.tar.gz
-*.cpg
-*.qmd
 *.xx
 *.qix
 *xlsx
+*tif
 *.tar_temp
 /data
 *espa*.json
