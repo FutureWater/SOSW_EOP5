@@ -215,7 +215,7 @@ sns.boxplot(
 sns.stripplot(final_table, x="LUC_name", y="nbwp_t",size=4,hue='Irr_name',dodge=True,jitter=False,legend=False,palette={"Rainfed": "black", "Irrigated": "k"})
 plt.xticks(rotation=30)
 
-ax.set(ylabel="NBWP(m3/ha)")
+ax.set(ylabel="NBWP(kgDM/m3)")
 #ax.set(xlabel="Land Use Category Name")
 ax.set(title='Interannual Variability ' +'(' + 'all years' + ')')
 plt.legend(loc='upper left')
@@ -271,7 +271,7 @@ sns.violinplot(data=df,linewidth=0.65,x='LUC_name',y='nbwpt',hue='Irr_name',inne
 plt.ylim(0, 5)
 plt.xticks(rotation=0)
 plt.title('Spatial Variability per Category ' + '(' + aoi + ')')
-plt.ylabel('NBWP (m3/ha)')
+plt.ylabel('NBWP(kgDM/m3)')
 plt.xlabel('Land Use Category Name')
 ax.set(title=aoi)
 plt.legend(loc='lower right')
@@ -297,7 +297,7 @@ sns.lineplot(
     final_table, x="year", y="et_mm", hue = 'LUC_name', style="Irr_name", palette = 'tab10'
      #palette={"Rainfed": "r", "Irrigated": "b"}
 )
-ax.set(ylabel="NBWP (m3/ha)")
+ax.set(ylabel="NBWP (kgDM/m3)")
 ax.set(xlabel="year")
 ax.set(title=aoi)
 
