@@ -1,6 +1,6 @@
 # <img src="https://github.com/mibrechb/SOSW_WP3/blob/main/imgs/sosw_logo.png" width="80"> SOS-Water - EOP5 Crop Water Productivity Mapper
 
-The Earth Observation Prototype 5 (EOP5) for Crop water productivity mapping is a prototype algorithm designed to estimate......
+The Earth Observation Prototype 5 (EOP5) for Crop water productivity mapping is a prototype algorithm designed to address the high resolution quantification of water productivity in main croplands in the Jucar River Basin (Spain) by using the WaPOR modelling tool. 
 
 This repository is part of the Deliverable 3.2 of SOS-Water - Water Resources System Safe Operating Space in a Changing Climate and Society ([DOI:10.3030/101059264](https://cordis.europa.eu/project/id/101059264)). Other code contributions to D3.2 can be found at the [SOS-Water - WP3 Earth Observation repository](https://github.com/mibrechb/SOSW_WP3).
 
